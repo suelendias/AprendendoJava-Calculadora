@@ -21,6 +21,6 @@ public class Calculadora
 	public static double  divisao(double numero1, double numero2) 
     {
 		return numero1 / numero2;
-	}
+    }
 
 }
