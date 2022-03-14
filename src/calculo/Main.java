@@ -14,12 +14,12 @@ public class Main
 		
 	    Scanner input = new Scanner(System.in); 
     	
-    	System.out.println("******CALCULADORA******");
-    	System.out.println("-Escolha uma op��o-");
+    	    System.out.println("******CALCULADORA******");
+    	    System.out.println("-Escolha uma opção-");
 	    System.out.println("1. Soma");  
-	    System.out.println("2. Subtra��o");  
-	    System.out.println("3. Multiplica��o");  
-	    System.out.println("4. Divis�o");	    
+	    System.out.println("2. Subtração");  
+	    System.out.println("3. Multiplicação");  
+	    System.out.println("4. Divisão");	    
 	    
 	    opcao = input.nextInt();   
 	    
@@ -33,7 +33,7 @@ public class Main
 	    	System.out.println("Qual o segundo numero: ");
 	    	numero2 = input1.nextInt();		
 			double resultado1 = Calculadora.soma(numero1, numero2);			
-			System.out.println("O resultado �: " + resultado1);
+			System.out.println("O resultado é: " + resultado1);
 			break;
 			
 	    	case 2:
@@ -44,7 +44,7 @@ public class Main
 		    System.out.println("Qual o segundo numero: ");
 		    numero2 = input2.nextInt();		
 			double resultado2 = Calculadora.subtracao(numero1, numero2);			
-			System.out.println("O resultado �: " + resultado2);
+			System.out.println("O resultado é: " + resultado2);
 			break;
 			
 	    	case 3:
@@ -55,7 +55,7 @@ public class Main
 			System.out.println("Qual o segundo numero: ");
 			numero2 = input3.nextInt();		
 			double resultado3 = Calculadora.multiplicacao(numero1, numero2);			
-			System.out.println("O resultado �: " + resultado3);
+			System.out.println("O resultado é: " + resultado3);
 			break;
 			
 	    	case 4:
@@ -66,15 +66,14 @@ public class Main
 			System.out.println("Qual o segundo numero: ");
 			numero2 = input4.nextInt();		
 			double resultado4 = Calculadora.divisao(numero1, numero2);			
-			System.out.println("O resultado �: " + resultado4);
+			System.out.println("O resultado é: " + resultado4);
 			break;
 	    
 	    	default:
-	    	System.out.println("Erro");
+	    	System.out.println("Erro, tente novamente.");
 	    }
 
 	  
 	    input.close();
-
     }
 }
